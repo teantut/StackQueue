@@ -9,6 +9,6 @@ script:
   - cmake ../StackQueue
   - make -j
   - ls
-  - ./test/StackQueue_Test
+  - ./test/QueueStack_Test
 notifications:
   email: false
